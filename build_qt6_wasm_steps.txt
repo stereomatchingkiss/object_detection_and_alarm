@@ -1,0 +1,14 @@
+####################Build on ubuntu20.04####################
+
+. Install Qt6.5.2
+. emsdk activate 3.1.25
+. your_path/Qt/6.2.4/Src
+. Add list(APPEND CMAKE_PREFIX_PATH
+        "your_path/Qt/Tools/QtDesignStudio/qt6_design_studio_reduced_version/lib/cmake/Qt6HostInfo"
+    )
+  set(Qt6HostInfo_DIR "your_path/Qt/Tools/QtDesignStudio/qt6_design_studio_reduced_version/lib/cmake/Qt6HostInfo")
+  into the CMakeLists.txt under the Src folder
+. sudo apt install protobuf-compiler
+. configure -qt-host-path your_path/Qt/ -no-warnings-are-errors -platform wasm-emscripten -feature-wasm-simd128 -feature-thread -prefix $PWD/qtbase
+. cmake --build . -t qtbase qtdeclarative qtwidgets qtnetwork qtwebsocket qtmultimedia
+. cmake --install .
