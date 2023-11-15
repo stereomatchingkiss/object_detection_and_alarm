@@ -39,6 +39,13 @@
 - 深度学习的算法不支援GPU
 - 使用websocket传送信息的时候，如果不是本地机器，必须使用ssl，且目标所使用的key必须被浏览器承认
 
+# 范例
+
+- [影片教学](https://youtu.be/TNancuXjlcM)
+- ![保存和读取设定](./imgs/save_and_load.png)
+- ![选择要追踪物件的区域](./imgs/select_roi.png)
+- ![追踪与计数](./imgs/track_and_count.png)
+
 # 将来的打算
 
 - 支持传统物件检测算法
