@@ -73,7 +73,7 @@ English | [简体中文](./readme_cn.md)
 - If you find a bug, please open an issue
 - If you need new features, please open an issue
 - GPU support will be completed by Vulkan. We don't plan to support CUDA for now, because it's too bloated and only supports Nvidia GPUs.
-- This is a demo to show off the capabilities of Qt for WebAssembly and computer vision in the browser. This program was not developed with the intention of being sold or used for commercial purposes.
+- The developer of this software created it as a demo and does not intend to use it for commercial purposes.
 - The copyright of this software belongs to the software developer.
 - Except for direct sales, this software can be used for personal or commercial purposes.
 - When using this software, please comply with relevant laws and regulations. The software developer is not responsible for any losses caused by using this software.
