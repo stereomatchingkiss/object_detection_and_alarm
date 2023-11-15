@@ -18,6 +18,7 @@
 # Execute
 
 python qt_base_opencv_videocapture_server.py --opencv_url your_url/your_video.mp4 #This will send the frame to the client
+python qt_base_alert_receiver.py #This will save the alarm info send from the webapp
 
 # Cautions
 
