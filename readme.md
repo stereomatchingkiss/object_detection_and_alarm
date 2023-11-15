@@ -15,7 +15,7 @@ English | [简体中文](./readme_cn.md)
 
 - [opencv 4.8.0](https://github.com/opencv/opencv)
 - [ncnn-20230816](https://github.com/Tencent/ncnn)
-- [Qt6.5.2(网页版)， Qt6.5.3(桌面版)](https://www.qt.io/)
+- [Qt6.5.2](https://www.qt.io/)
 - [Eigen 3.4.0](https://eigen.tuxfamily.org/index.php?title=Main_Page)
 - [Boost 1.81.0](https://www.boost.org/)
 
