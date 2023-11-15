@@ -78,7 +78,7 @@ English | [简体中文](./readme_cn.md)
 - The copyright of this software belongs to the software developer.
 - Except for direct sales, this software can be used for personal or commercial purposes.
 - When using this software, please comply with relevant laws and regulations. The software developer is not responsible for any losses caused by using this software.
-- How to compile Qt6.5.2 that supports SIMD and thread, please refer to build_qt6_wasm.txt
+- How to compile Qt6.5.2 that supports SIMD and thread, please refer to [build_qt6_wasm_steps.txt](https://github.com/stereomatchingkiss/object_detection_and_alarm/blob/main/build_qt6_wasm_steps.txt)
 - The UI of this program is designed for desktop, please open it on the desktop
 - Release the desktop version
 
