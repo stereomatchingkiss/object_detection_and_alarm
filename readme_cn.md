@@ -30,7 +30,7 @@
 
 - 如果你要把影像透过websocket传送，请参考 [qt_base_opencv_videocapture_server.py](https://github.com/stereomatchingkiss/object_detection_and_alarm/blob/main/qt_base_opencv_videocapture_server.py)
 - 如果你要接收警报，请参考 [qt_base_alert_receiver.py](https://github.com/stereomatchingkiss/object_detection_and_alarm/blob/main/qt_base_alert_receiver.py)
-- (install_qt_script.md)[https://github.com/stereomatchingkiss/object_detection_and_alarm/blob/main/install_qt_script.md]，解释如何安装需要的package
+- [install_qt_script.md](https://github.com/stereomatchingkiss/object_detection_and_alarm/blob/main/install_qt_script.md)，解释如何安装需要的package
 
 # 网页版的限制
 

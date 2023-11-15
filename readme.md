@@ -29,7 +29,7 @@ English | [简体中文](./readme_cn.md)
 
 - If you want to transmit images through websocket, please refer to [qt_base_opencv_videocapture_server.py](https://github.com/stereomatchingkiss/object_detection_and_alarm/blob/main/qt_base_opencv_videocapture_server.py)
 - If you want to receive alarms, please refer to [qt_base_alert_receiver.py](https://github.com/stereomatchingkiss/object_detection_and_alarm/blob/main/qt_base_alert_receiver.py)
-- (install_qt_script.md)[https://github.com/stereomatchingkiss/object_detection_and_alarm/blob/main/install_qt_script.md]，explain how to install the required packages
+- [install_qt_script.md](https://github.com/stereomatchingkiss/object_detection_and_alarm/blob/main/install_qt_script.md)，explain how to install the required packages
 
 # Limitations of the web version
 
