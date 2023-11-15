@@ -38,7 +38,7 @@ English | [简体中文](./readme_cn.md)
 - Deep learning algorithms do not support GPU
 - When using websocket to transmit information, if it is not a local machine, SSL must be used, and the key used by the target must be recognized by the browser.
 
-# 范例
+# Examples
 
 - [Video tutorial](https://youtu.be/TNancuXjlcM)
 - ![Save and load the settings](./imgs/save_and_load.png)
