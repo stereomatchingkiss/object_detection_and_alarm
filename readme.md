@@ -37,6 +37,8 @@ English | [简体中文](./readme_cn.md)
 - Unable to actively write settings and alarms to local hard drive. In order to bypass this limitation, the web version provides websocket to transmit alarms.
 - Deep learning algorithms do not support GPU
 - When using websocket to transmit information, if it is not a local machine, SSL must be used, and the key used by the target must be recognized by the browser.
+- Neither OpenCV nor Qt's multimedia module provides good support for browsers, so the web version only supports image transmission using websockets.
+- Qt for WebAssembly is a very useful tool, but it is only available under the GPL and commercial licenses.
 
 # Examples
 

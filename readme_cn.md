@@ -38,6 +38,8 @@
 - 无法主动将设定，警报写入本地硬碟，为了绕开这一限制，网页版提供了websocket传送警报
 - 深度学习的算法不支援GPU
 - 使用websocket传送信息的时候，如果不是本地机器，必须使用ssl，且目标所使用的key必须被浏览器承认
+- 无论是opencv或Qt的多媒体模组，对浏览器的支援都不好，所以网页版只支持利用websocket传输影像的模式
+- Qt for webassembly虽然很好用，但他只有GPL和商用的license
 
 # 范例
 
