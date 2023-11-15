@@ -1,3 +1,5 @@
+[English](./readme.md) | 简体中文
+
 # 如何安装
 
 - 网页版不需要安装，使用firefox/chrome开启[这个网址](https://object-detector-and-alarm.netlify.app/generic_cv_tasks.html)即可使用
