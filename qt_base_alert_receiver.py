@@ -23,7 +23,7 @@ class simple_websocket_server(QPushButton):
         self.server = QWebSocketServer("Simple alert server", QWebSocketServer.NonSecureMode, self)
         self.socket = None
 
-        self.setText("Close")
+        self.setText("Close alert server")
         self.clicked.connect(self.close)
 
         if(self.server.listen(QHostAddress.Any, port)):

@@ -30,7 +30,7 @@ class simple_websocket_server(QPushButton):
         self.timer = QTimer()
         self.timer.setInterval(int(1000.0/self.max_fps))
 
-        self.setText("Close")
+        self.setText("Close video server")
 
         self.clicked.connect(self.close)
 
@@ -53,7 +53,7 @@ class simple_websocket_server(QPushButton):
 
     def send_frame(self):
         if self.camera is None:
-            self.camera = cv2.VideoCapture(args["opencv_url"], )
+            self.camera = cv2.VideoCapture(args["opencv_url"])
             if(self.camera.isOpened() == False):
                 print("cannot open camera from the url = ", args["opencv_url"])
                 self.timer.stop()
@@ -63,18 +63,20 @@ class simple_websocket_server(QPushButton):
 
         try:
             _, frame = self.camera.read()
-            if frame is None:
-                print("cannot capture frame")
-            if self.socket:
+            if self.socket and frame is not None:
                 if args["downsample"] != 1:
                     height, width, _ = frame.shape
                     frame = cv2.resize(frame, (int(width / self.downsample), int(height / self.downsample)))
 
                 _, buffer = cv2.imencode('.jpg', frame)
                 self.socket.sendBinaryMessage(buffer.tobytes())
+            else:
+                self.camera.set(cv2.CAP_PROP_POS_FRAMES, 0)
 
         except:
+            print("camera release")
             self.camera.release()
+            self.camera = None
 
     def socket_disconnected(self):
         print("socket disconnected")
