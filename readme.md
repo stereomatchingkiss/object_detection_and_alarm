@@ -65,10 +65,6 @@ English | [简体中文](./readme_cn.md)
 
 - Security monitoring, logistics transportation, retail industry, etc.
 
-# How to compile Qt6.5.2
-
-- Please refer to [this file](https://github.com/stereomatchingkiss/object_detection_and_alarm/blob/main/build_qt6_wasm_steps.txt)
-
 # Others
 
 - If you think it is good after using it, please give me a star, thank you
