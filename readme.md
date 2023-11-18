@@ -84,6 +84,10 @@ English | [简体中文](./readme_cn.md)
 
 - If you have a case to ask me for help, please leave your email
 - Good at solving problems using existing technologies, prefer to use Qt
+- I am skilled in developing cross-platform programs and plugins for Windows, Ubuntu, Android, iOS, and browsers.
+- I am skilled in implementing computer vision algorithms. I am the developer of the [image hash module for OpenCV Contrib](https://github.com/opencv/opencv_contrib/tree/4.x/modules/img_hash), a popular computer vision library. I have also implemented algorithms from research papers, such as [semantic segmentation](https://qtandopencv.blogspot.com/2017/08/let-us-create-semantic-segmentation.html), [homography matrix estimator](https://qtandopencv.blogspot.com/2017/10/modern-way-to-estimate-homography.html).
+- I have experience training deep learning models for a variety of tasks, including image classification, object detection, semantic segmentation, one shot learning. I am able to work with customers to understand their specific needs and develop a training plan that meets those needs.
+
 
 # Source codes
 
