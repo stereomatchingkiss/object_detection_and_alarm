@@ -87,3 +87,7 @@
 - 擅长开发跨平台（windows, ubuntu, android, browser）的程式，plug in(windows, ubuntu, android, ios, browser)
 - 擅长实现电脑视觉的算法，opencv contrib的image hash就是我开发的，除此之外也实现过一些paper上的算法
 - 了解如何训练新的深度学习模型以满足客户的客制化需求
+
+# 原始码
+
+- [Show cases](https://github.com/stereomatchingkiss/show_cases)

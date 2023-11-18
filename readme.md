@@ -84,3 +84,7 @@ English | [简体中文](./readme_cn.md)
 
 - If you have a case to ask me for help, please leave your email
 - Good at solving problems using existing technologies, prefer to use Qt
+
+# Source codes
+
+- [Show cases](https://github.com/stereomatchingkiss/show_cases)
