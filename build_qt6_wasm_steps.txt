@@ -11,4 +11,4 @@
 - sudo apt install protobuf-compiler
 - configure -qt-host-path your_path/Qt/ -no-warnings-are-errors -platform wasm-emscripten -feature-wasm-simd128 -feature-thread -prefix $PWD/qtbase
 - cmake --build . -t qtbase qtdeclarative qtwidgets qtnetwork qtwebsocket qtmultimedia
- cmake --install .
+- cmake --install .
