@@ -35,7 +35,7 @@ class simple_websocket_server(QPushButton):
         self.clicked.connect(self.close)
 
         if(self.server.listen(QHostAddress.Any, port)):
-            print("SSL Echo Server listening on port: ", port)
+            print("Video capture server listening on port: ", port)
             self.server.newConnection.connect(self.on_new_connection)
             self.timer.timeout.connect(self.send_frame)
 
