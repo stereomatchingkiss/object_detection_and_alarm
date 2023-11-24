@@ -8,4 +8,4 @@
 
 # 详情
 
-- 请参考[show_cases](https://github.com/stereomatchingkiss/object_detection_and_alarm)
+- 请参考[show_cases](https://github.com/stereomatchingkiss/show_cases/tree/master/generic_cv_tasks)

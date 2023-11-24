@@ -7,4 +7,4 @@ English | [简体中文](./readme_cn.md)
 
 # Details
 
-- Please refer to [show_cases](https://github.com/stereomatchingkiss/object_detection_and_alarm)
+- Please refer to [show_cases](https://github.com/stereomatchingkiss/show_cases/tree/master/generic_cv_tasks)
